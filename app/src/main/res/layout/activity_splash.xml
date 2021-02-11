@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".activity.SplashActivity">
+
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:layout_width="@dimen/splash_logo_layout_width"
+        android:layout_height="@dimen/splash_logo_layout_height"
+
+        android:layout_marginLeft="@dimen/splash_logo_layout_marginLeft"
+        android:layout_marginTop="@dimen/splash_logo_layout_marginTop"
+        android:layout_marginRight="@dimen/splash_logo_layout_marginRight"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/splashYazi"
+        style="@style/splash_yazi_style"
+        android:layout_width="@dimen/splash_yazi_layout_width"
+        android:layout_height="@dimen/splash_yazi_layout_height"
+        android:layout_marginLeft="@dimen/splash_yazi_layout_marginLeft"
+        android:layout_marginTop="@dimen/splash_yazi_layout_marginTop"
+        android:layout_marginRight="@dimen/splash_yazi_layout_marginRight"
+        android:text="@string/splash_yazi"
+        android:textColor="@color/splash_yazi_renk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

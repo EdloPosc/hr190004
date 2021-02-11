@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/login_logo_layout_width"
+        android:layout_height="@dimen/login_logo_layout_height"
+        android:layout_marginLeft="@dimen/login_logo_layout_marginLeft"
+        android:layout_marginTop="@dimen/login_logo_layout_marginTop"
+        android:layout_marginRight="@dimen/login_logo_layout_marginRight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtAd"
+        style="@style/login_yazi_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_Ad_yazi_layout_marginLeft"
+        android:layout_marginTop="@dimen/login_Ad_yazi_layout_marginTop"
+        android:text="@string/login_Ad"
+        android:textColor="@color/login_yazi_renk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSoyad"
+        style="@style/login_yazi_style"
+        android:layout_width="@dimen/login_Soyad_yazi_layout_width"
+        android:layout_height="@dimen/login_Soyad_yazi_layout_height"
+        android:layout_marginLeft="@dimen/login_Soyad_yazi_layout_marginLeft"
+        android:layout_marginTop="@dimen/login_Soyad_yazi_layout_marginTop"
+        android:text="@string/login_Soyad"
+        android:textColor="@color/login_yazi_renk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextAd"
+        android:layout_width="@dimen/login_editTextAd_layout_width"
+        android:layout_height="@dimen/login_editTextAd_layout_height"
+        android:layout_marginLeft="@dimen/login_editTextAd_layout_marginLeft"
+        android:layout_marginTop="@dimen/login_editTextAd_layout_marginTop"
+        android:background="@color/login_editText_renk"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextSoyad"
+        android:layout_width="@dimen/login_editTextSoyad_layout_width"
+        android:layout_height="@dimen/login_editTextSoyad_layout_height"
+        android:layout_marginLeft="@dimen/login_editTextSoyad_layout_marginLeft"
+        android:layout_marginTop="@dimen/login_editTextSoyad_layout_marginTop"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Soyad"
+        android:background="@color/login_editText_renk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnKayit"
+        android:layout_width="@dimen/login_buton_layout_width"
+        android:layout_height="@dimen/login_buton_layout_height"
+        android:layout_marginLeft="@dimen/login_buton_layout_marginLeft"
+        android:layout_marginTop="@dimen/login_buton_layout_marginTop"
+        android:background="@color/login_buton_renk"
+        android:text="Button"
+        android:textColor="@color/login_editText_renk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

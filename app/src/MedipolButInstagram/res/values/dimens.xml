@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_yazi_layout_width">237dp</dimen>
+    <dimen name="splash_yazi_layout_height">87dp</dimen>
+    <dimen name="splash_yazi_layout_marginTop">296dp</dimen>
+    <dimen name="splash_yazi_layout_marginLeft">62dp</dimen>
+    <dimen name="splash_yazi_layout_marginRight">61dp</dimen>
+
+    <dimen name="splash_logo_layout_width">189dp</dimen>
+    <dimen name="splash_logo_layout_height">189dp</dimen>
+    <dimen name="splash_logo_layout_marginTop">87dp</dimen>
+    <dimen name="splash_logo_layout_marginLeft">86dp</dimen>
+    <dimen name="splash_logo_layout_marginRight">85dp</dimen>
+
+    <dimen name="login_logo_layout_width">189dp</dimen>
+    <dimen name="login_logo_layout_height">189dp</dimen>
+    <dimen name="login_logo_layout_marginTop">23dp</dimen>
+    <dimen name="login_logo_layout_marginLeft">85dp</dimen>
+    <dimen name="login_logo_layout_marginRight">86dp</dimen>
+
+    <dimen name="login_Ad_yazi_layout_width">67dp</dimen>
+    <dimen name="login_Ad_yazi_layout_height">23dp</dimen>
+    <dimen name="login_Ad_yazi_layout_marginTop">246dp</dimen>
+    <dimen name="login_Ad_yazi_layout_marginLeft">17dp</dimen>
+
+    <dimen name="login_Soyad_yazi_layout_width">97dp</dimen>
+    <dimen name="login_Soyad_yazi_layout_height">23dp</dimen>
+    <dimen name="login_Soyad_yazi_layout_marginTop">337dp</dimen>
+    <dimen name="login_Soyad_yazi_layout_marginLeft">18dp</dimen>
+
+    <dimen name="login_editTextAd_layout_width">327dp</dimen>
+    <dimen name="login_editTextAd_layout_height">56dp</dimen>
+    <dimen name="login_editTextAd_layout_marginTop">279dp</dimen>
+    <dimen name="login_editTextAd_layout_marginLeft">15dp</dimen>
+
+    <dimen name="login_editTextSoyad_layout_width">327dp</dimen>
+    <dimen name="login_editTextSoyad_layout_height">56dp</dimen>
+    <dimen name="login_editTextSoyad_layout_marginTop">373dp</dimen>
+    <dimen name="login_editTextSoyad_layout_marginLeft">15dp</dimen>
+
+    <dimen name="login_buton_layout_width">323dp</dimen>
+    <dimen name="login_buton_layout_height">64dp</dimen>
+    <dimen name="login_buton_layout_marginTop">453dp</dimen>
+    <dimen name="login_buton_layout_marginLeft">18dp</dimen>
+
+    <dimen name="notConnect_logo_oops_layout_width">136dp</dimen>
+    <dimen name="notConnect_logo_oops_layout_height">136dp</dimen>
+    <dimen name="notConnect_logo_oops_layout_marginTop">166dp</dimen>
+    <dimen name="notConnect_logo_oops_layout_marginLeft">112dp</dimen>
+    <dimen name="notConnect_logo_oops_layout_marginRight">112dp</dimen>
+
+    <dimen name="notConnect_cardview_layout_width">345dp</dimen>
+    <dimen name="notConnect_cardview_layout_height">108dp</dimen>
+    <dimen name="notConnect_cardview_layout_marginTop">14dp</dimen>
+    <dimen name="notConnect_cardview_layout_marginLeft">7dp</dimen>
+
+    <dimen name="notConnect_cardview_logo_layout_width">91dp</dimen>
+    <dimen name="notConnect_cardview_logo_layout_height">77dp</dimen>
+    <dimen name="notConnect_cardview_logo_layout_marginTop">17dp</dimen>
+    <dimen name="notConnect_cardview_logo_layout_marginLeft">246dp</dimen>
+    <dimen name="notConnect_cardview_logo_layout_marginRight">16dp</dimen>
+    <dimen name="notConnect_cardview_logo_layout_marginBottom">17dp</dimen>
+
+    <dimen name="notConnect_cardview_text1_layout_width">120dp</dimen>
+    <dimen name="notConnect_cardview_text1_layout_height">30dp</dimen>
+    <dimen name="notConnect_cardview_text1_layout_marginTop">24dp</dimen>
+    <dimen name="notConnect_cardview_text1_layout_marginLeft">19dp</dimen>
+
+    <dimen name="notConnect_cardview_text2_layout_width">220dp</dimen>
+    <dimen name="notConnect_cardview_text2_layout_height">33dp</dimen>
+    <dimen name="notConnect_cardview_text2_layout_marginTop">56dp</dimen>
+    <dimen name="notConnect_cardview_text2_layout_marginLeft">18dp</dimen>
+
+    <dimen name="notConnect_text3_layout_width">207dp</dimen>
+    <dimen name="notConnect_text3_layout_height">23dp</dimen>
+    <dimen name="notConnect_text3_layout_marginTop">334dp</dimen>
+    <dimen name="notConnect_text3_layout_marginLeft">84dp</dimen>
+    <dimen name="notConnect_text3_layout_marginRight">69dp</dimen>
+
+    <dimen name="liste_rcvChat_layout_height">0dp</dimen>
+</resources>

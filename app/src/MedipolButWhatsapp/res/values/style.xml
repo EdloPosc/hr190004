@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="splash_yazi_style">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="login_yazi_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="login_editText_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="cardview_text2_yazi_style">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="cardview_text1_yazi_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="text3_yazi_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

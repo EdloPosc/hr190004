@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".activity.InternetYokActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/notConnect_logo_oops_layout_width"
+        android:layout_height="@dimen/notConnect_logo_oops_layout_height"
+        android:layout_marginLeft="@dimen/notConnect_logo_oops_layout_marginLeft"
+        android:layout_marginTop="@dimen/notConnect_logo_oops_layout_marginTop"
+        android:layout_marginRight="@dimen/notConnect_logo_oops_layout_marginRight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/oops1"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/notConnect_cardview_layout_width"
+        android:layout_height="@dimen/notConnect_cardview_layout_height"
+        android:layout_marginLeft="@dimen/notConnect_cardview_layout_marginLeft"
+        android:layout_marginTop="@dimen/notConnect_cardview_layout_marginTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="10dp"
+        tools:ignore="MissingConstraints" >
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/cardview_text1_yazi_style"
+            android:layout_width="@dimen/notConnect_cardview_text1_layout_width"
+            android:layout_height="@dimen/notConnect_cardview_text1_layout_height"
+            android:layout_marginLeft="@dimen/notConnect_cardview_text1_layout_marginLeft"
+            android:layout_marginTop="@dimen/notConnect_cardview_text1_layout_marginTop"
+            android:text="Hoşgeldin,"
+
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="@dimen/notConnect_cardview_text2_layout_width"
+            android:layout_height="@dimen/notConnect_cardview_text2_layout_height"
+            android:layout_marginLeft="@dimen/notConnect_cardview_text2_layout_marginLeft"
+            android:layout_marginTop="@dimen/notConnect_cardview_text2_layout_marginTop"
+            android:text="Mücahit Yalçıntepe"
+            android:textColor="@color/black"
+            style="@style/cardview_text2_yazi_style"
+            />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="@dimen/notConnect_cardview_logo_layout_width"
+            android:layout_height="@dimen/notConnect_cardview_logo_layout_height"
+            android:layout_marginLeft="@dimen/notConnect_cardview_logo_layout_marginLeft"
+            android:layout_marginTop="@dimen/notConnect_cardview_logo_layout_marginTop"
+            android:layout_marginRight="@dimen/notConnect_cardview_logo_layout_marginRight"
+            android:layout_marginBottom="@dimen/notConnect_cardview_logo_layout_marginBottom"
+            tools:srcCompat="@tools:sample/avatars" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/text3_yazi_style"
+        android:layout_width="@dimen/notConnect_text3_layout_width"
+        android:layout_height="@dimen/notConnect_text3_layout_height"
+        android:layout_marginLeft="@dimen/notConnect_text3_layout_marginLeft"
+        android:layout_marginTop="@dimen/notConnect_text3_layout_marginTop"
+        android:layout_marginRight="@dimen/notConnect_text3_layout_marginRight"
+        android:text="@string/notConnect"
+        android:textColor="@color/notConnect_text3_renk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

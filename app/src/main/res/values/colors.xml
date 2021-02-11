@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="status_bar">#000000</color>
+    <color name="bg_color">#FFFFFF</color>
+    <color name="splash_yazi_renk">#FFFFFF</color>
+    <color name="login_yazi_renk">#FFFFFF</color>
+    <color name="login_editText_renk">#FFFFFF</color>
+    <color name="login_buton_renk">#FFFFFF</color>
+    <color name="notConnect_text3_renk">#FFFFFF</color>
+</resources>

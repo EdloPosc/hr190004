@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".activity.InternetVarActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="@dimen/notConnect_cardview_layout_width"
+        android:layout_height="@dimen/notConnect_cardview_layout_height"
+        android:layout_marginLeft="@dimen/notConnect_cardview_layout_marginLeft"
+        android:layout_marginTop="@dimen/notConnect_cardview_layout_marginTop"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/cardview_text1_yazi_style"
+            android:layout_width="@dimen/notConnect_cardview_text1_layout_width"
+            android:layout_height="@dimen/notConnect_cardview_text1_layout_height"
+            android:layout_marginLeft="@dimen/notConnect_cardview_text1_layout_marginLeft"
+            android:layout_marginTop="@dimen/notConnect_cardview_text1_layout_marginTop"
+            android:text="Hoşgeldin,"
+
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/cardview_text2_yazi_style"
+            android:layout_width="@dimen/notConnect_cardview_text2_layout_width"
+            android:layout_height="@dimen/notConnect_cardview_text2_layout_height"
+            android:layout_marginLeft="@dimen/notConnect_cardview_text2_layout_marginLeft"
+            android:layout_marginTop="@dimen/notConnect_cardview_text2_layout_marginTop"
+            android:text="Mücahit Yalçıntepe"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="@dimen/notConnect_cardview_logo_layout_width"
+            android:layout_height="@dimen/notConnect_cardview_logo_layout_height"
+            android:layout_marginLeft="@dimen/notConnect_cardview_logo_layout_marginLeft"
+            android:layout_marginTop="@dimen/notConnect_cardview_logo_layout_marginTop"
+            android:layout_marginRight="@dimen/notConnect_cardview_logo_layout_marginRight"
+            android:layout_marginBottom="@dimen/notConnect_cardview_logo_layout_marginBottom"
+            tools:srcCompat="@tools:sample/avatars" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvMesajlar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/liste_rcvChat_layout_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        tools:listitem="@layout/cardview_chat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

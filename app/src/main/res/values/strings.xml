@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HR190004_Mucahit_Burak_Yalcintepe_but_proje</string>
+
+    <string name="splash_yazi">Medipol App Hoşgeldiniz</string>
+
+    <string name="login_Ad">Adınız :</string>
+    <string name="login_Soyad">Soyadınız :</string>
+
+    <string name="notConnect">Internet bağlantınız yok</string>
+</resources>
